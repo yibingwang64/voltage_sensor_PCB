@@ -60,40 +60,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VDGFRJBF
 
 [Document2]
-DocumentPath=..\..\Documents\AltiumLL\SamacSys.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MPRJBCLL
-
-[Document3]
-DocumentPath=..\..\Documents\AltiumLL\SamacSys.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NGLTGAHM
-
-[Document4]
 DocumentPath=Schlib_For_High_Voltage_Sensor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -110,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKJZTBBT
 
-[Document5]
+[Document3]
 DocumentPath=[1]MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -127,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TIKADFCE
 
-[Document6]
+[Document4]
 DocumentPath=PcbLibForHigh_Voltage_Sensor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,24 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IQDHLDWG
 
-[Document7]
-DocumentPath=PCB_High_Voltage_Sensor.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
+[Document5]
 DocumentPath=[2]Battery.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GOMNAPEK
 
-[Document9]
+[Document6]
 DocumentPath=[3]USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPNXSMXW
 
-[Document10]
+[Document7]
 DocumentPath=[4]Button.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -212,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GFAAYDMJ
 
-[Document11]
+[Document8]
 DocumentPath=[5]High_V_Sensor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -229,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMZJGRZZ
 
-[Document12]
+[Document9]
 DocumentPath=[7]3-axis-accelerometer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IESSGSVT
 
-[Document13]
+[Document10]
 DocumentPath=[8]Halleffect.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SRREAZGK
 
-[Document14]
+[Document11]
 DocumentPath=[9]GPSGNSS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -280,125 +229,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYWJXAKM
 
-[Document15]
-DocumentPath=PCB_High_Voltage_Sensor.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document16]
-DocumentPath=PcbLib1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QCJOVFTE
-
-[Document17]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document18]
-DocumentPath=CAMtastic2.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document19]
-DocumentPath=CAMtastic3.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
-DocumentPath=CAMtastic4.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document21]
-DocumentPath=CAMtastic5.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=78BD60E5-6715-4D83-8116-AED7F34AF843
 Description=Variant of PCB_High_Voltage_Sensor
@@ -411,202 +241,6 @@ Variation3=Designator=SWD1|UniqueId=\TRRGKJNY|Kind=1|AlternatePart=
 Variation4=Designator=SWD2|UniqueId=\UOLBIXEH|Kind=1|AlternatePart= 
 Variation5=Designator=J2|UniqueId=\QTQUUEVL|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor-RectHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.2
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.3
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM9
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM10
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM11
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM12
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM14
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM17
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM19
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM20
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM22
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GM29
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GML
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.REP
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\[Revision 35] PCB_High_Voltage_Sensor.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\Design Rule Check - PCB_High_Voltage_Sensor.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
