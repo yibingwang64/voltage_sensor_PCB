@@ -1,0 +1,456 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD19\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7/27/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9:16:32 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc" class="file"><acronym title="C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc">C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">12</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">9</td></tr>
+</table>
+</td>
+</table><a name="ID1QFOJ0XDFJHGMP50SN4YB2JCYBVOQEIOHGXCGOD05CBMPM4VPWD"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGIMR03NDZBZUEBKKXXN4JU3N0GE0YNZ2TBVU35MAMTAFLWCIW32O">Clearance Constraint (Gap=8mil) (All),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVM4WBT1LTZQHD5TZ3WG4SM21XIJSHV0J2G3HRCESONX1ME1454CF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWZP4UZ1U03Q0JAX1Q35W2XZUOBIVRLLWX5ZSNTL22FYNJ53OQ2WJ">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPV4CUNMM12J5JCNBO1QDE45YAMQQ0K2CUZJRT1IRHGT5C0XO2PHN">Modified Polygon (Allow modified: Yes), (Allow shelved: Yes)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDINQX5YO34DL0DUC2EQG0I2CPOFOGCU5HOAS2CKBZ4VMJINIIL3VM">Width Constraint (Min=50.00ohms) (Max=50.00ohms) (Preferred=50.00ohms) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTH42J43D1CSUBOXUXNP3ZOXZ2G32RJAPUNFBTSEZVESLI2CF15YL">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDF5V2YJAAWU2PHZUNNR5QRJEEEE3HKFCXLSJEOQGGLZPEFQNVNH0K">Hole Size Constraint (Min=1mil) (Max=135mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4XNUQAC14N0BE4PR2BCP1NU3QJQ0HU5FPQ4JJKDGNTKEXAY0BUPB">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQWJS21DECWFPHXVER5LC2UMVCYR3A4B00251ACAMQPNG5AVO0OB">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKKTHTJFLWMKYKBYZUH3QUYUCKBCE3YVWPYSU41ITM1ZV2YER0HWN">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDN0RY13SITLXYJOZGJJ1MDWM0PJIYB5X5SMI4HOGKRPZG4ANPZ3HP">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXLNMSULHH1TEGGMK2105AU13YPCW0MYR0APIMCMYIN0VLOO31LRL">Net Antennae (Tolerance=5mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBUF4APG55Z30CGRNZXCF4X3AVEILUAYDMTKQA1CZVUF43KHE40AF">Board Clearance Constraint (Gap=0mil) (OnLayer('BOTTOM'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIX4DZN1GTEL2KPPHAWWYB4HAACJFW3VYZ54BRNCJKQB3ZOF5GWLK">Board Clearance Constraint (Gap=0mil) (OnLayer('Bottom Overlay'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRS1RYADLZFHJNGWJNCEQGSJPJLWOVZYU4532RTNLP1HXJCXLKU4">Board Clearance Constraint (Gap=0mil) (OnLayer('Top Overlay'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDEKOLT5EZH5CCYUW5V4ZHBRYVGIOISOEYRHKSUBJOOIKHEHUWQHF">Board Clearance Constraint (Gap=0mil) (OnLayer('TOP'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0CZPA1WXHZXNK2YR01TSCAKXADA3GBXQTX1L0IFZUVWFXXPQD2PP">Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID05LV4DGB41E5GAFZ4OKXQ1BDZWNOEVLJWMT4XCGWYLXHPZO211H">Matched Lengths(Tolerance=100mil) (InDifferentialPair ('USB'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHUUA4CECRHL3IVQZ1VLBLGVY4KEKNUXQZSDHJOKGTWWUQXE0BMDC">Matched Lengths(Tolerance=100mil) (InDifferentialPair ('USB'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0L0YYQQK35PBL0CM5IHES1FQLPNJFSKPFLVYOOCUONQYLKRJI4EC">Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT0GUGIJGQUQLMVZTBVVFU2W1EOMY4UBDT0QWSBPOSVPPUOGO15UK">Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWJQD00FBQ1WRHX4UOID3OWLHFH3RWCIQGS25CNX05T50WQDWOON">Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDC4FGBCZHKUENJ3W4SXUQKJ45AOY2F2BAW4EUJFHJEZ23WFL1CQIM">Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACYDEI5DEKT0NX13FONYJP0FMOK2CZP3Z511MVGTFR22KT5DMZDF">Height Constraint (Min=0mil) (Max=1500mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">12</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJUX4ZGRU3UTYEWU1DMSI4PQOJIFEXKFYCN054EAQWWDJOGME1XK">Width Constraint (Min=50.00ohms) (Max=50.00ohms) (Preferred=50.00ohms) (All)</a></td>
+<td class="column2">9</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">9</td>
+</tr>
+</table><br><a name="IDPD4IXUQMT4QDLOSDYAJFXUQGJXSB34FWC4FEQOCLUQFUCVKZOK"><h2>Rule Violations</h2></a><a name="IDGIMR03NDZBZUEBKKXXN4JU3N0GE0YNZ2TBVU35MAMTAFLWCIW32O"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=8mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1950.14mil|Location2.X=1956.474mil|Location1.Y=2268.566mil|Location2.Y=2274.899mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1950.14mil|Location2.X=1956.474mil|Location1.Y=2268.566mil|Location2.Y=2274.899mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Pad ANT1-1(1910mil,2248.11mil) on TOP And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1950.14mil|Location2.X=1956.474mil|Location1.Y=2532.345mil|Location2.Y=2538.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1950.14mil|Location2.X=1956.474mil|Location1.Y=2532.345mil|Location2.Y=2538.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Region (0 hole(s)) Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1005.166mil|Location2.X=1011.499mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1005.166mil|Location2.X=1011.499mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.333mil,2473mil)(1008.833mil,2473mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1005.666mil|Location2.X=1011.999mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1005.666mil|Location2.X=1011.999mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.833mil,2473mil)(1220mil,2473mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1833.999mil|Location2.X=1840.332mil|Location1.Y=2508.723mil|Location2.Y=2515.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1833.999mil|Location2.X=1840.332mil|Location1.Y=2508.723mil|Location2.Y=2515.056mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1906.833mil|Location2.X=1913.167mil|Location1.Y=2244.944mil|Location2.Y=2251.277mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1906.833mil|Location2.X=1913.167mil|Location1.Y=2244.944mil|Location2.Y=2251.277mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1910mil,2161.5mil)(1910mil,2248.11mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2480.885mil|Location2.Y=2487.218mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2480.885mil|Location2.Y=2487.218mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2484.051mil)(982.949mil,2500.358mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2480.885mil|Location2.Y=2487.218mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2480.885mil|Location2.Y=2487.218mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2484.051mil)(994mil,2473mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2495.217mil|Location2.Y=2501.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2495.217mil|Location2.Y=2501.55mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2498.384mil)(982.949mil,2500.358mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2497.192mil|Location2.Y=2503.525mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=979.782mil|Location2.X=986.115mil|Location1.Y=2497.192mil|Location2.Y=2503.525mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2500.358mil)(994.48mil,2511.89mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=991.314mil|Location2.X=997.647mil|Location1.Y=2508.723mil|Location2.Y=2515.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=991.314mil|Location2.X=997.647mil|Location1.Y=2508.723mil|Location2.Y=2515.056mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994.48mil,2511.89mil)(1837.165mil,2511.89mil) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=990.833mil|Location2.X=997.167mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=990.833mil|Location2.X=997.167mil|Location1.Y=2469.833mil|Location2.Y=2476.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994mil,2473mil)(1008.333mil,2473mil) on TOP </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFHVWYL4JQ0NAFLEXFS3JNTQLJISKMFVRJP00BFFCDVYDNRD3QXFM"><h2>Waived Violations</h2></a><a name="IDJUX4ZGRU3UTYEWU1DMSI4PQOJIFEXKFYCN054EAQWWDJOGME1XK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Width Constraint (Min=50.00ohms) (Max=50.00ohms) (Preferred=50.00ohms) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=997.24mil|Location2.X=1040.393mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=997.24mil|Location2.X=1040.393mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True">Width Constraint: Track (1008.333mil,2473mil)(1008.833mil,2473mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1103.074mil|Location2.X=1146.226mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1103.074mil|Location2.X=1146.226mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True">Width Constraint: Track (1008.833mil,2473mil)(1220mil,2473mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1862.24mil|Location2.X=1905.393mil|Location1.Y=2500.547mil|Location2.Y=2523.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1862.24mil|Location2.X=1905.393mil|Location1.Y=2500.547mil|Location2.Y=2523.232mil|Absolute=True">Width Constraint: Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=966.921mil|Location2.X=998.731mil|Location1.Y=2480.862mil|Location2.Y=2510.675mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=966.921mil|Location2.X=998.731mil|Location1.Y=2480.862mil|Location2.Y=2510.675mil|Absolute=True">Width Constraint: Track (982.949mil,2484.051mil)(982.949mil,2500.358mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=977.132mil|Location2.X=1015.713mil|Location1.Y=2464.801mil|Location2.Y=2489.868mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=977.132mil|Location2.X=1015.713mil|Location1.Y=2464.801mil|Location2.Y=2489.868mil|Absolute=True">Width Constraint: Track (982.949mil,2484.051mil)(994mil,2473mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=966.921mil|Location2.X=998.731mil|Location1.Y=2488.029mil|Location2.Y=2517.841mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=966.921mil|Location2.X=998.731mil|Location1.Y=2488.029mil|Location2.Y=2517.841mil|Absolute=True">Width Constraint: Track (982.949mil,2498.384mil)(982.949mil,2500.358mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=977.372mil|Location2.X=1015.779mil|Location1.Y=2494.782mil|Location2.Y=2520.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=977.372mil|Location2.X=1015.779mil|Location1.Y=2494.782mil|Location2.Y=2520.023mil|Absolute=True">Width Constraint: Track (982.949mil,2500.358mil)(994.48mil,2511.89mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1404.48mil|Location2.X=1447.633mil|Location1.Y=2500.547mil|Location2.Y=2523.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1404.48mil|Location2.X=1447.633mil|Location1.Y=2500.547mil|Location2.Y=2523.232mil|Absolute=True">Width Constraint: Track (994.48mil,2511.89mil)(1837.165mil,2511.89mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=989.824mil|Location2.X=1032.976mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=989.824mil|Location2.X=1032.976mil|Location1.Y=2461.657mil|Location2.Y=2484.343mil|Absolute=True">Width Constraint: Track (994mil,2473mil)(1008.333mil,2473mil) on TOP Actual Width = 19.685mil, Target Width = 17.34mil</acronym></a><br>Waived by Rick Wang at 2/3/2021 3:02:38 PM<br>Ignore</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
