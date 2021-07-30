@@ -235,11 +235,11 @@ Description=Variant of PCB_High_Voltage_Sensor
 AllowFabrication=0
 ParameterCount=0
 VariationCount=5
-Variation1=Designator=B1|UniqueId=\TFEXRKBJ|Kind=1|AlternatePart= 
-Variation2=Designator=BT1|UniqueId=\RSOUPHAX|Kind=1|AlternatePart= 
-Variation3=Designator=SWD1|UniqueId=\TRRGKJNY|Kind=1|AlternatePart= 
-Variation4=Designator=SWD2|UniqueId=\UOLBIXEH|Kind=1|AlternatePart= 
-Variation5=Designator=J2|UniqueId=\QTQUUEVL|Kind=1|AlternatePart= 
+Variation1=Designator=BT1|UniqueId=\RSOUPHAX|Kind=1|AlternatePart= 
+Variation2=Designator=SWD1|UniqueId=\TRRGKJNY|Kind=1|AlternatePart= 
+Variation3=Designator=SWD2|UniqueId=\UOLBIXEH|Kind=1|AlternatePart= 
+Variation4=Designator=J2|UniqueId=\QTQUUEVL|Kind=1|AlternatePart= 
+Variation5=Designator=B2|UniqueId=\MCPCRMXO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
