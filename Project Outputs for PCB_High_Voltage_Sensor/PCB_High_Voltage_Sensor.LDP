@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb_high_voltage_sensor-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb_high_voltage_sensor-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=pcb_high_voltage_sensor-rectholes.txt|DrillLayers=gtl,gp1,gp2,gbl
