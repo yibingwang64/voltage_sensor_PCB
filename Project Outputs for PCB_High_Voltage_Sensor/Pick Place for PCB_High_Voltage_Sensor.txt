@@ -4,9 +4,9 @@ C:\Users\RickWang\Documents\GitHub\voltage_sensor_PCB\Project Outputs for PCB_Hi
 ========================================================================================================================
 File Design Information:
 
-Date:       03/08/21
-Time:       16:46
-Revision:   69d8e466a9384c3d28382a8785841b3a38df9c5b
+Date:       04/08/21
+Time:       11:17
+Revision:   c59799b3f58edf65d34bd42ab7477e48069660fc
 Variant:    No variations
 Units used: mil
 
