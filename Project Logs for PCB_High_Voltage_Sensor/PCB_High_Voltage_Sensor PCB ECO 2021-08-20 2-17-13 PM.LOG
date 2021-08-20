@@ -1,0 +1,11 @@
+Added Component: Designator=R32(RESC5025X88N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "WSL2010R0100FEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/wsl2010r0100fea/vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://componentsearchengine.com/Datasheets/1/WSL2010R0100FEA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "WSL2010R0100FEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "71-WSL2010R0100FEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL2010R0100FEA?qs=vgLn9hCS5y9zV4J1uLqJFA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PACK- Pin=R32-1
+Added Pin To Net: NetName=BAT- Pin=R32-2
+Added Member To Class: ClassName=[6]Battery Managment Member=Component R32 WSL2010R1000FEA

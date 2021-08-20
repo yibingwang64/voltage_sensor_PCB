@@ -1,1 +1,9 @@
-Record=TopLevelDocument|FileName=[1]MCU.SchDoc
+Record=TopLevelDocument|FileName=[1]MCU.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[2]Battery.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[3]USB.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[4]Button.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[5]High_V_Sensor.SchDoc|SheetNumber=0
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[6]Battery Managment.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[7]3-axis-accelerometer.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[8]Halleffect.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]MCU.SchDoc|FileName=[9]GPSGNSS.SchDoc|SheetNumber= 
