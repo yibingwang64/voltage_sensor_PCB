@@ -1,0 +1,97 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc
+Date     : 2021-08-20
+Time     : 4:09:58 PM
+
+Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP Location : [X = 1893.31mil][Y = 2511.89mil]
+Rule Violations :1
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: Yes), (Allow shelved: Yes)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8.472mil) (Max=25mil) (Preferred=16.14mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=160mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('BOTTOM'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('Bottom Overlay'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('Top Overlay'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('TOP'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (InDifferentialPair ('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (InDifferentialPair ('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPairClass('USBPair'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1500mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=8mil) (All),(All)
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-1(1910mil,2248.11mil) on TOP And Region (0 hole(s)) Keep-Out Layer Waived by Rick Wang at 2021-08-05 8:22:18 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Region (0 hole(s)) Keep-Out Layer Waived by Rick Wang at 2021-08-05 8:22:31 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.333mil,2473mil)(1008.833mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.833mil,2473mil)(1220mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1910mil,2161.5mil)(1910mil,2248.11mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2484.051mil)(982.949mil,2500.358mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2484.051mil)(994mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2498.384mil)(982.949mil,2500.358mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2500.358mil)(994.48mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994.48mil,2511.89mil)(1837.165mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994mil,2473mil)(1008.333mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
+Waived Violations :12
+
+
+Violations Detected : 1
+Waived Violations : 12
+Time Elapsed        : 00:00:02
