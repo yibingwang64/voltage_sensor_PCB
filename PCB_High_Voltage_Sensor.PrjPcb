@@ -254,12 +254,13 @@ UniqueID=78BD60E5-6715-4D83-8116-AED7F34AF843
 Description=Variant of PCB_High_Voltage_Sensor
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=BT1|UniqueId=\RSOUPHAX|Kind=1|AlternatePart= 
 Variation2=Designator=SWD1|UniqueId=\TRRGKJNY|Kind=1|AlternatePart= 
 Variation3=Designator=SWD2|UniqueId=\UOLBIXEH|Kind=1|AlternatePart= 
 Variation4=Designator=J2|UniqueId=\QTQUUEVL|Kind=1|AlternatePart= 
 Variation5=Designator=B2|UniqueId=\MCPCRMXO|Kind=1|AlternatePart= 
+Variation6=Designator=RN1|UniqueId=\QWUEDEGQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
