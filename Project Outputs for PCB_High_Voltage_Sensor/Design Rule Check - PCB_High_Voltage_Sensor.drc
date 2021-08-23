@@ -1,10 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc
-Date     : 2021-08-20
-Time     : 4:09:58 PM
+Date     : 2021-08-23
+Time     : 10:45:31 AM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-1(1910mil,2248.11mil) on TOP And Region (0 hole(s)) Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Region (0 hole(s)) Keep-Out Layer 
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
    Violation between Short-Circuit Constraint: Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP Location : [X = 1893.31mil][Y = 2511.89mil]
@@ -77,8 +79,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1500mil) (Prefered=500mil) (
 Rule Violations :0
 
 Waived Violations Of Rule : Clearance Constraint (Gap=8mil) (All),(All)
-   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-1(1910mil,2248.11mil) on TOP And Region (0 hole(s)) Keep-Out Layer Waived by Rick Wang at 2021-08-05 8:22:18 AM
-   Waived Violation between Clearance Constraint: (Collision < 8mil) Between Pad ANT1-2(1910mil,2511.89mil) on TOP And Region (0 hole(s)) Keep-Out Layer Waived by Rick Wang at 2021-08-05 8:22:31 AM
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.333mil,2473mil)(1008.833mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1008.833mil,2473mil)(1220mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (1837.165mil,2511.89mil)(1910mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
@@ -89,9 +89,9 @@ Waived Violations Of Rule : Clearance Constraint (Gap=8mil) (All),(All)
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (982.949mil,2500.358mil)(994.48mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994.48mil,2511.89mil)(1837.165mil,2511.89mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
    Waived Violation between Clearance Constraint: (Collision < 8mil) Between Region (0 hole(s)) Keep-Out Layer And Track (994mil,2473mil)(1008.333mil,2473mil) on TOP Waived by Rick Wang at 2021-08-05 8:23:00 AM
-Waived Violations :12
+Waived Violations :10
 
 
-Violations Detected : 1
-Waived Violations : 12
-Time Elapsed        : 00:00:02
+Violations Detected : 3
+Waived Violations : 10
+Time Elapsed        : 00:00:01
