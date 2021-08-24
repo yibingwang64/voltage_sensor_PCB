@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCB_High_Voltage_Sensor.GBR   8/4/2021  12:43:21 PM
+Gerber File Extension Report For: PCB_High_Voltage_Sensor.GBR   2021-08-24  8:22:44 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -21,16 +21,29 @@ Layer Extension     Layer Description
 .GM3                Mechanical 3                            
 .GM4                Dimensions                              
 .GM5                Top Courtyard                           
+.GM6                Top Value                               
 .GM7                Mechanical 7                            
 .GM8                Bottom Value                            
+.GM9                Bottom Assembly                         
 .GM10               Top 3D Body                             
+.GM11               Top Glue Points                         
+.GM12               Bottom Glue Points                      
 .GM13               Mechanical 13                           
+.GM14               Bottom 3D Body                          
 .GM15               Mechanical 15                           
 .GM16               Bottom Courtyard                        
+.GM17               Mechanical 17                           
+.GM19               Top Designator                          
+.GM20               Bottom Designator                       
+.GM22               Mechanical 22                           
 .GM29               Mechanical 29                           
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
+.GML                Multi-Layer                             
+.1                  Dielectric 3                            
+.2                  Dielectric 1                            
+.3                  Dielectric 2                            
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------
