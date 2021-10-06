@@ -1,0 +1,13 @@
+Update Managed Component C18 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C19 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C20 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C21 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C22 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C23 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C24 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Update Managed Component C25 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [9]GPSGNSS.SchDoc
+Replace Part CONN2 U.FL-R-SMT-1 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[9]GPSGNSS.SchDoc with U.FL-R-SMT-1 from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part D5 LED BLUE CLEAR 1608 SMD in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[9]GPSGNSS.SchDoc with LED BLUE CLEAR 1608 SMD from MasterLib.SchLib
+Replace Part FB9 Ferrite Bead in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[9]GPSGNSS.SchDoc with Ferrite Bead from MasterLib.SchLib
+Replace Part IC4 CAM-M8Q-0-10 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[9]GPSGNSS.SchDoc with CAM-M8Q-0-10 from Schlib_For_High_Voltage_Sensor.SchLib
+Update Managed Component L1 From CMP-006-00007-2[LQG15HN2N2S02D] To CMP-006-00007-2[LQG15HN2N2S02D] in [9]GPSGNSS.SchDoc

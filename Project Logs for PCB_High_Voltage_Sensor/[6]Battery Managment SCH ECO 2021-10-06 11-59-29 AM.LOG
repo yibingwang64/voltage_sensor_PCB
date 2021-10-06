@@ -1,0 +1,13 @@
+Update Managed Component C35 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Update Managed Component C36 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Update Managed Component C37 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Update Managed Component C38 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Update Managed Component C39 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Update Managed Component C40 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [6]Battery Managment.SchDoc
+Replace Part IC8 BQ35100PW in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with BQ35100PW from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part R1 KRL1220E-M-R100-F-T5 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with KRL1220E-M-R100-F-T5 from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part R18 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R27 RES 1M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with RES 1M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R28 RES 1M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with RES 1M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R30 RES 0 Ohm [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with RES 0 Ohm [0603] from MasterLib.SchLib
+Replace Part R31 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[6]Battery Managment.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib

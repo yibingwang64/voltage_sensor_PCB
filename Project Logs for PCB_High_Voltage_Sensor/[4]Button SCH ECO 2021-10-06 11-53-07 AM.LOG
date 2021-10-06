@@ -1,0 +1,4 @@
+Replace Part BOOT Button in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[4]Button.SchDoc with Button from Schlib_For_High_Voltage_Sensor.SchLib
+Update Managed Component C14 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [4]Button.SchDoc
+Replace Part R6 ERJ-PA3F1002V in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[4]Button.SchDoc with ERJ-PA3F1002V from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part RESET Button in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[4]Button.SchDoc with Button from Schlib_For_High_Voltage_Sensor.SchLib

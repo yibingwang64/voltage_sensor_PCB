@@ -1,0 +1,20 @@
+Update Managed Component C26 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C27 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C28 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C29 From CMP-001-00017-4[4.7uF] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C30 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C31 From CMP-001-00017-4[4.7uF] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C32 From CMP-001-00017-4[4.7uF] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C33 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Update Managed Component C34 From CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] To CMP-001-00017-4[Capacitor 100 nF +/-10% 50 V 0603] in [5]High_V_Sensor.SchDoc
+Replace Part FB10 Ferrite Bead in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with Ferrite Bead from MasterLib.SchLib
+Replace Part J2 Socket in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with Socket from Miscellaneous Connectors.IntLib
+Replace Part R16 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R21 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R22 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R24 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part R25 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
+Replace Part U2 TLC1078 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with TLC1078 from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part U2 TLC1078 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with TLC1078 from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part U3 TLC1078 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with TLC1078 from Schlib_For_High_Voltage_Sensor.SchLib
+Replace Part U3 TLC1078 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[5]High_V_Sensor.SchDoc with TLC1078 from Schlib_For_High_Voltage_Sensor.SchLib

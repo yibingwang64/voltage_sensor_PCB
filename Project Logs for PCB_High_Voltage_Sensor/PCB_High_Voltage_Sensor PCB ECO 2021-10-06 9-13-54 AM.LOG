@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=PACK- Pin=R31-1
+Removed Pin From Net: NetName=PACK- Pin=R32-1
+Added Component: Designator=R30(RES 0603)
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PN"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PACK- Pin=R30-2
+Change Net Name : Old Net Name=PACK- New Net Name=GND
+Added Pin To Net: NetName=PACK- Pin=R30-1
+Added Pin To Net: NetName=PACK- Pin=R31-1
+Added Pin To Net: NetName=PACK- Pin=R32-1
+Added Net: Name=PACK-

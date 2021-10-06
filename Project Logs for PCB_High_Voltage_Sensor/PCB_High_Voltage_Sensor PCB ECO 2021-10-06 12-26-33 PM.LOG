@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Ant Pin=R3-1
+Removed Pin From Net: NetName=Out1 Peak Pin=R26-1
+Removed Pin From Net: NetName=NetD6_1 Pin=R26-2
+Change Component Footprint: Designator=R3 Old Footprint=RESC0603 New Footprint=RES 0603
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC0603"; UniqueID = "\WNSEMMXZ" ("\WNSEMMXZ")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PN"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "667-ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0 Ohm"; VariantName = "[No Variations]"

@@ -1,0 +1,7 @@
+Replace Part BT1 BHD-2 in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[2]Battery.SchDoc with BHD-2 from Schlib_For_High_Voltage_Sensor.SchLib
+Update Managed Component C10 From CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] To CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] in [2]Battery.SchDoc
+Update Managed Component C11 From CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] To CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] in [2]Battery.SchDoc
+Update Managed Component C12 From CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] To CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] in [2]Battery.SchDoc
+Update Managed Component C13 From CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] To CMP-001-00005-4[Capacitor 1 uF +/- 10% 25 V 0603] in [2]Battery.SchDoc
+Replace Part FB11 Ferrite Bead in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[2]Battery.SchDoc with Ferrite Bead from MasterLib.SchLib
+Replace Part R4 RES 3.3M 1% 0.1W [0603] in C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\[2]Battery.SchDoc with RES 3.3M 1% 0.1W [0603] from MasterLib.SchLib
