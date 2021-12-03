@@ -63,23 +63,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VDGFRJBF
 
 [Document2]
-DocumentPath=..\..\..\OneDrive - Latium Fleet Management Inc\PCBLib\MasterLib.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BAUSXKCW
-
-[Document3]
 DocumentPath=Schlib_For_High_Voltage_Sensor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -96,7 +79,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKJZTBBT
 
-[Document4]
+[Document3]
 DocumentPath=[1]MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -113,24 +96,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TIKADFCE
 
-[Document5]
-DocumentPath=..\..\..\OneDrive - Latium Fleet Management Inc\PCBLib\MasterLib.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XCDKGKTS
-
-[Document6]
+[Document4]
 DocumentPath=PcbLibForHigh_Voltage_Sensor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +113,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IQDHLDWG
 
-[Document7]
+[Document5]
 DocumentPath=[2]Battery.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -164,7 +130,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GOMNAPEK
 
-[Document8]
+[Document6]
 DocumentPath=[3]USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -181,7 +147,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPNXSMXW
 
-[Document9]
+[Document7]
 DocumentPath=[4]Button.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -198,7 +164,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GFAAYDMJ
 
-[Document10]
+[Document8]
 DocumentPath=[5]High_V_Sensor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,7 +181,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMZJGRZZ
 
-[Document11]
+[Document9]
 DocumentPath=[7]3-axis-accelerometer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -232,7 +198,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IESSGSVT
 
-[Document12]
+[Document10]
 DocumentPath=[8]Halleffect.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -249,7 +215,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SRREAZGK
 
-[Document13]
+[Document11]
 DocumentPath=[9]GPSGNSS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +232,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYWJXAKM
 
-[Document14]
+[Document12]
 DocumentPath=[6]Battery Managment.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -677,7 +643,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=RICOH MP C407 [58387912F832]
+TargetPrinter=RICOH MP C3504ex [58387912A8F6]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -757,7 +723,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=RICOH MP C407 [58387912F832]
+TargetPrinter=RICOH MP C3504ex [58387912A8F6]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -783,7 +749,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=RICOH MP C407 [58387912F832]
+TargetPrinter=RICOH MP C3504ex [58387912A8F6]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
