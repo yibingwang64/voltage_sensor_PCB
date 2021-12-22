@@ -459,10 +459,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\PCB_High_Voltage_Sensor.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument50]
-DocumentPath=Project Outputs for PCB_High_Voltage_Sensor\Pick Place for PCB_High_Voltage_Sensor.txt
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -641,7 +637,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=RICOH MP C3504ex [58387912A8F6]
+TargetPrinter=RICOH MP C3504ex [58387912A8F6] (Copy 1)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
