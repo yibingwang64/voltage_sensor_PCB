@@ -2,10 +2,22 @@
 FileName = PCB_High_Voltage_Sensor.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Designator
-      File : PCB_High_Voltage_Sensor.GM20
+Generating : Dielectric 2
+      File : PCB_High_Voltage_Sensor.3
 
-    Adding Layer      : Bottom Designator
+    Adding Layer      : Dielectric 2
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : PCB_High_Voltage_Sensor.2
+
+    Adding Layer      : Dielectric 1
 
     Adding Layer      : Bottom Value
 
@@ -18,6 +30,64 @@ Generating : Dielectric 3
       File : PCB_High_Voltage_Sensor.1
 
     Adding Layer      : Dielectric 3
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : PCB_High_Voltage_Sensor.GML
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 29
+      File : PCB_High_Voltage_Sensor.GM29
+
+    Adding Layer      : Mechanical 29
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 22
+      File : PCB_High_Voltage_Sensor.GM22
+
+    Adding Layer      : Mechanical 22
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : PCB_High_Voltage_Sensor.GM20
+
+    Adding Layer      : Bottom Designator
 
     Adding Layer      : Bottom Value
 
@@ -50,32 +120,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 29
-      File : PCB_High_Voltage_Sensor.GM29
-
-    Adding Layer      : Mechanical 29
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D12
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 22
-      File : PCB_High_Voltage_Sensor.GM22
-
-    Adding Layer      : Mechanical 22
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Bottom Courtyard
       File : PCB_High_Voltage_Sensor.GM16
 
@@ -87,6 +131,22 @@ Generating : Bottom Courtyard
 Used DCodes :
     D12
     D16
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : PCB_High_Voltage_Sensor.GM15
+
+    Adding Layer      : Mechanical 15
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D11
+    D12
+    D151
+    D152
 *************************************************************
 
 *************************************************************
@@ -102,6 +162,22 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Mechanical 13
+      File : PCB_High_Voltage_Sensor.GM13
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D11
+    D12
+    D15
+    D17
+*************************************************************
+
+*************************************************************
 Generating : Bottom Glue Points
       File : PCB_High_Voltage_Sensor.GM12
 
@@ -114,78 +190,34 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : TOP
-      File : PCB_High_Voltage_Sensor.GTL
-
-    Adding Layer      : TOP
-
-    Adding Layer      : Bottom Value
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-*************************************************************
-
-*************************************************************
 Generating : Top Glue Points
       File : PCB_High_Voltage_Sensor.GM11
 
     Adding Layer      : Top Glue Points
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : PCB_High_Voltage_Sensor.GM10
+
+    Adding Layer      : Top 3D Body
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : PCB_High_Voltage_Sensor.GM9
+
+    Adding Layer      : Bottom Assembly
 
     Adding Layer      : Bottom Value
 
@@ -206,88 +238,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : PCB_High_Voltage_Sensor.GM1
+Generating : Mechanical 7
+      File : PCB_High_Voltage_Sensor.GM7
 
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D12
-    D133
-    D134
-    D135
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 1
-      File : PCB_High_Voltage_Sensor.2
-
-    Adding Layer      : Dielectric 1
+    Adding Layer      : Mechanical 7
 
     Adding Layer      : Bottom Value
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB_High_Voltage_Sensor.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : PCB_High_Voltage_Sensor.GM13
-
-    Adding Layer      : Mechanical 13
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D11
-    D12
-    D15
     D17
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 3
-      File : PCB_High_Voltage_Sensor.GM3
+Generating : Top Value
+      File : PCB_High_Voltage_Sensor.GM6
 
-    Adding Layer      : Mechanical 3
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : PCB_High_Voltage_Sensor.GM10
-
-    Adding Layer      : Top 3D Body
+    Adding Layer      : Top Value
 
     Adding Layer      : Bottom Value
 
@@ -305,183 +272,8 @@ Generating : Top Courtyard
 
 
 Used DCodes :
+    D11
     D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 2
-      File : PCB_High_Voltage_Sensor.3
-
-    Adding Layer      : Dielectric 2
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : GND
-      File : PCB_High_Voltage_Sensor.GP1
-
-    Adding Layer      : GND
-
-    Adding Layer      : Bottom Value
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 15
-      File : PCB_High_Voltage_Sensor.GM15
-
-    Adding Layer      : Mechanical 15
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D12
-    D17
-    D136
-    D137
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : PCB_High_Voltage_Sensor.GM9
-
-    Adding Layer      : Bottom Assembly
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Value
-      File : PCB_High_Voltage_Sensor.GM6
-
-    Adding Layer      : Top Value
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : PCB_High_Voltage_Sensor.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D138
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : PCB_High_Voltage_Sensor.GML
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : PCB_High_Voltage_Sensor.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Bottom Value
-
-    Adding Layer      : TOP
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 7
-      File : PCB_High_Voltage_Sensor.GM7
-
-    Adding Layer      : Mechanical 7
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D15
 *************************************************************
 
 *************************************************************
@@ -494,7 +286,99 @@ Generating : Dimensions
 
 
 Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : PCB_High_Voltage_Sensor.GM3
+
+    Adding Layer      : Mechanical 3
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : PCB_High_Voltage_Sensor.GM2
+
+    Adding Layer      : Top Assembly
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
     D15
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : PCB_High_Voltage_Sensor.GM1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D12
+    D148
+    D149
+    D150
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : PCB_High_Voltage_Sensor.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D153
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB_High_Voltage_Sensor.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D10
+    D11
+    D15
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB_High_Voltage_Sensor.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Value
+
+    Adding Layer      : BOTTOM
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D141
+    D142
+    D144
 *************************************************************
 
 *************************************************************
@@ -511,21 +395,21 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D55
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
+    D71
     D95
     D96
-    D130
-    D131
-    D132
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D145
+    D146
+    D147
 *************************************************************
 
 *************************************************************
@@ -542,12 +426,7 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D29
-    D53
-    D54
-    D55
-    D56
-    D57
+    D36
     D58
     D59
     D60
@@ -587,53 +466,31 @@ Used DCodes :
     D94
     D95
     D96
-*************************************************************
-
-*************************************************************
-Generating : BOTTOM
-      File : PCB_High_Voltage_Sensor.GBL
-
-    Adding Layer      : BOTTOM
-
-    Adding Layer      : Bottom Value
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D21
+    D97
     D98
     D99
+    D100
+    D101
+    D102
+    D103
+    D104
     D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D127
-    D128
-    D129
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : PCB_High_Voltage_Sensor.GPT
+Generating : Top Paste
+      File : PCB_High_Voltage_Sensor.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Bottom Value
 
     Adding Layer      : TOP
 
     Adding Layer      : Multi-Layer
 
-    Adding Layer      : Bottom Value
-
 
 Used DCodes :
-    D19
     D20
     D21
     D22
@@ -667,15 +524,93 @@ Used DCodes :
     D50
     D51
     D52
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB_High_Voltage_Sensor.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PCB_High_Voltage_Sensor.GPT
+
+    Adding Layer      : TOP
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Bottom Value
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
 *************************************************************
 
 *************************************************************
@@ -690,48 +625,52 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D21
-    D105
+    D33
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : BOTTOM
+      File : PCB_High_Voltage_Sensor.GBL
+
+    Adding Layer      : BOTTOM
+
+    Adding Layer      : Bottom Value
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D33
     D106
-    D107
     D108
     D109
-    D110
-    D111
     D112
-    D113
-    D127
-    D128
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : PCB_High_Voltage_Sensor.GM2
-
-    Adding Layer      : Top Assembly
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D11
-    D18
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB_High_Voltage_Sensor.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Bottom Value
-
-
-Used DCodes :
-    D10
-    D11
-    D15
-    D17
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D141
+    D142
+    D143
+    D144
 *************************************************************
 
 *************************************************************
@@ -746,6 +685,109 @@ Generating : VCC
 
 
 Used DCodes :
+    D126
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : PCB_High_Voltage_Sensor.GP1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Bottom Value
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+*************************************************************
+
+*************************************************************
+Generating : TOP
+      File : PCB_High_Voltage_Sensor.GTL
+
+    Adding Layer      : TOP
+
+    Adding Layer      : Bottom Value
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
     D116
     D117
     D118
@@ -756,27 +798,6 @@ Used DCodes :
     D123
     D124
     D125
-    D126
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PCB_High_Voltage_Sensor.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Value
-
-    Adding Layer      : BOTTOM
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D21
-    D127
-    D128
-    D129
 *************************************************************
 
 *************************************************************
@@ -791,9 +812,8 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D139
-    D140
-    D141
+    D154
+    D155
 *************************************************************
 
 *************************************************************
@@ -808,6 +828,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D139
+    D154
 *************************************************************
 

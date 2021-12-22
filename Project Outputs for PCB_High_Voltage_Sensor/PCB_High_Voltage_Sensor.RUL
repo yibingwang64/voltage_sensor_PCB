@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\rwang\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc
+DRC Rules Export File for PCB: C:\Users\RickWang\OneDrive - Latium Tech\Documents\GitHub\voltage_sensor_PCB\PCB_High_Voltage_Sensor.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.47
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
